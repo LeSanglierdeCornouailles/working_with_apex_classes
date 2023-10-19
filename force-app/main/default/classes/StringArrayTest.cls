@@ -6,7 +6,7 @@
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public class StringArrayTest {
-    public static List<string> GenerateStringArray(Integer n){
+    public static List<string> generateStringArray(Integer n){
         List<string> arr = new  List<string>();
 
         for (Integer i=0;i<n;i++) {
