@@ -5,7 +5,6 @@ List<Lead> ListOfLead = [SELECT id, name, Status FROM Lead WHERE Status = 'close
 for(Lead Iterator : ListOfLead){
     if(Iterator.Status == 'closed - not converted'){
         Iterator.Status = 'Open - not Contacted';
-        // Add updated lead sObject to the list.
     }
 }
 // Bulk update all selected lead  with one DML call
